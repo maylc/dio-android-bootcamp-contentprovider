@@ -41,7 +41,7 @@ class NotesAdapter(private val listener: NoteClickListener) : RecyclerView.Adapt
         0
     }
 
-    fun setCursor(newCursor: Cursor) {
+    fun setCursor(newCursor: Cursor?) {
         this.cursor = newCursor
         notifyDataSetChanged()
     }
